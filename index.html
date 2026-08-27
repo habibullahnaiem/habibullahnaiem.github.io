@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <meta name="description" content="Academic, editorial, and social-impact portfolio of Md. Habibullah Naiem — Bangla literature graduate researcher, editor, and community project lead." />
     <meta name="theme-color" content="#13283F" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <script>
+      // Defense in depth: any cached/direct HTTP visit to this public hostname moves to HTTPS.
+      if (location.hostname === "naiem.iam.bd" && location.protocol !== "https:") {
+        location.replace(`https://naiem.iam.bd${location.pathname}${location.search}${location.hash}`);
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,400..700,0..100,0..1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
